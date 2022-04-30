@@ -1,0 +1,8 @@
+server:
+  port: 8085
+
+app:
+  service:
+    name: user-service-rest
+token:
+  secret: secret

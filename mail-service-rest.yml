@@ -1,0 +1,20 @@
+server:
+  port: 8083
+
+spring:
+
+  # #mail properties
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: 2021JavaForTest@gmail.com
+    password: forTest2021
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+token:
+  secret: secret

@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://postgresql_comment_service/
+    username: postgres
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+
+  flyway:
+    user: postgres
+    password: root
+    url: jdbc:postgresql://postgresql_comment_service/
+    driver-class-name: org.postgresql.Driver
+    validate-on-migrate: false
+    baseline-on-migrate: true
+    schemas: comment_service

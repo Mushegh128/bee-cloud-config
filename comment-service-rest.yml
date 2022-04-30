@@ -1,0 +1,10 @@
+server:
+  port: 8086
+
+
+app:
+  service:
+    name: comment-service-rest
+
+token:
+  secret: secret

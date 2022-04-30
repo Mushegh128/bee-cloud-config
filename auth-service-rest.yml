@@ -1,0 +1,12 @@
+server:
+  port: 8078
+spring:
+
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+token:
+  expiration: 600000000
+  secret: secret
+  refresh:
+    expiration: 6000000000
